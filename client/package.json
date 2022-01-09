@@ -1,0 +1,39 @@
+{
+	"name": "client",
+	"version": "1.0.0",
+	"description": "Adsoldier Advertising Platform",
+	"author": "Fudex",
+	"private": true,
+	"scripts": {
+		"dev": "nuxt --port 9000",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"generate": "nuxt generate",
+		"prod": "pm2 start npm ecosystem.config.js --name adsoldier-client -- start"
+	},
+	"dependencies": {
+		"@nuxtjs/auth": "^4.8.5",
+		"@nuxtjs/axios": "^5.9.3",
+		"@nuxtjs/font-awesome": "^1.0.4",
+		"apexcharts": "^3.16.0",
+		"body-parser": "^1.19.0",
+		"bootstrap": "^3.3.5",
+		"chart.js": "^2.9.3",
+		"hchs-vue-charts": "^1.2.8",
+		"jquery": "^1.12.4",
+		"node-sass": "^4.13.0",
+		"nuxt": "^2.11.0",
+		"nuxt-vue-multiselect": "^1.0.4",
+		"nuxt-vuex-localstorage": "^1.2.6",
+		"sass-loader": "^8.0.2",
+		"vue-apexcharts": "^1.5.2",
+		"vue-chartjs": "^3.5.0",
+		"vue-cryptojs": "^2.1.4",
+		"vue-emoji-picker": "^1.0.1",
+		"vue-light-gallery": "^1.0.1",
+		"vue-tables-2": "^1.6.23",
+		"vue2-datepicker": "^2.13.4",
+		"vue2-google-maps": "^0.10.7"
+	},
+	"devDependencies": {}
+}
